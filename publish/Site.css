@@ -1,0 +1,41 @@
+  body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+  }
+
+  main {
+      flex: 1 0 auto;
+  }
+
+  footer a {
+      color: white;
+      font-weight: 600;
+  }
+
+  main a {
+      color: #434DAD;
+      font-weight: 600;
+  }
+
+  a:hover {
+      color: #00ADEE;
+  }
+
+  .seriesName {
+      font-size: 85%;
+  }
+
+  .fad {
+      --fa-secondary-opacity: 1.0;
+      --fa-secondary-color: #00ADEE;
+      --fa-primary-color: #434DAD;
+  }
+
+  .primary-text {
+      color: #434DAD;
+  }
+
+  .secondary-text {
+      color: #00ADEE;
+  }
