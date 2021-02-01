@@ -22,13 +22,54 @@
       color: #00ADEE;
   }
 
+  .mockupImg {
+      margin-top: 1rem;
+      width: 100%;
+      max-width: 480px;
+  }
+
   .seriesName {
-      font-size: 85%;
+      font-size: 60%;
+      font-variant: small-caps;
+      line-height: normal;
+      color: #434DAD;
+  }
+
+  .icon-block h2:first {
+      margin-top: 0.5rem;
+  }
+
+  h1 {
+      margin: 0;
+  }
+
+  h1.secondary-text {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+  }
+
+  .audience-list, .goal-list, .chapter-list {
+      margin-left: 1rem;
+      font-weight: 600;
+  }
+
+  .audience-list li, .goal-list li {
+      margin-bottom: 0.5rem;
+  }
+
+  .audience-list li i, .goal-list li i {
+      margin-right: 0.5rem;
   }
 
   .fad {
       --fa-secondary-opacity: 1.0;
       --fa-secondary-color: #00ADEE;
+      --fa-primary-color: #434DAD;
+  }
+
+  .btn .fad {
+      --fa-secondary-opacity: 1.0;
+      --fa-secondary-color: #FFFFFF;
       --fa-primary-color: #434DAD;
   }
 
