@@ -53,11 +53,11 @@
       font-weight: 600;
   }
 
-  .audience-list li, .goal-list li {
+  .audience-list li, .goal-list li, .chapter-list li {
       margin-bottom: 0.5rem;
   }
 
-  .audience-list li i, .goal-list li i {
+  .audience-list li i, .goal-list li i, .chapter-list li {
       margin-right: 0.5rem;
   }
 
